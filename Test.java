@@ -4,6 +4,8 @@ public class Test{
         throw new InvalidAgeException("Not eligible to Vote");
     }
     System.out.println("Eligible to vote");
+    System.out.println("Age should be above 18");
+    
    }
    public static void main(String[] args) {
        try {
